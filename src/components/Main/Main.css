@@ -1,0 +1,72 @@
+#main-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+#main-img {
+  content: url(../../img/image-hero-mobile.png);
+  width: 100%;
+}
+
+.client-section {
+  margin: 40px 0;
+}
+
+.client-section img {
+  margin-left: 20px;
+}
+
+section {
+  text-align: center;
+}
+
+#section1 {
+  padding: 30px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+button {
+  padding: 15px 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: rgb(44, 43, 43);
+}
+
+@media screen and (min-width: 1024px) {
+  #main-container {
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    padding: 30px;
+    margin-top: 0;
+  }
+
+  #main-img {
+    content: url(../../img/image-hero-desktop.png);
+    width: 90%;
+  }
+
+  section {
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 65px;
+  }
+
+  p {
+    margin: 40px 0;
+    font-size: 18px;
+  }
+}
